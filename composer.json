@@ -20,7 +20,21 @@
     },
     "require": {
         "simplesamlphp/composer-module-installer": "~1.0",
-        "openid/php-openid": "dev-master"
+        "openid/php-openid": "dev-master as 2.3.1"
+    },
+    "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "openid/php-openid",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/simonchrz/php-openid.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
     }
+  ],
 }
 
